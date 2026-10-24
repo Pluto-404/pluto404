@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desain Pluto404 - Galeri Desain</title>
+  <meta name="description" content="Galeri hasil desain Photoshop: poster, logo, dan eksperimen visual.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Spectral:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>pluto404</h1>
+    <p class="intro">ABCDEFGHIJKLMNOPQRSTUVWXYZ.</p>
+    <p class="intro">Berhenti Ngedesain Sampai Ganti Presiden.</p>
+
+    <div class="controls">
+      <div class="row" role="group" aria-label="Filter bentuk kanvas" id="shapes">
+        <span class="row-label">Bentuk kanvas</span>
+      </div>
+      <p class="count" id="count" aria-live="polite"></p>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>Tidak ada desain dengan bentuk kanvas ini.</p>
+  </main>
+
+  <footer class="foot">
+    <p><a href="https://www.instagram.com/nurfpsd_">@nurfpsd_</a></p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Pratinjau desain">
+    <button class="lb-btn lb-close" id="lb-close" type="button">Tutup</button>
+    <figure class="lb-stage" id="lb-stage">
+      <img id="lb-img" alt="">
+    </figure>
+    <div class="lb-bar">
+      <button class="lb-btn" id="lb-prev" type="button" aria-label="desain sebelumnya">Sebelumnya</button>
+      <div class="lb-info">
+        <p class="lb-title" id="lb-title"></p>
+        <p class="lb-meta" id="lb-meta"></p>
+      </div>
+      <button class="lb-btn" id="lb-next" type="button" aria-label="desain berikutnya">Berikutnya</button>
+    </div>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
