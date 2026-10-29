@@ -11,10 +11,13 @@
     { title: 'abcdef',          year: 2077, src: 'assets/hannibrutalism.jpg', ...A4 },
     { title: 'abcdef',      year: 2077, src: 'assets/gd.jpg',                   w: 1920, h: 1080 },
     { title: 'abcdef',     year: 2077, src: 'assets/marsha kacamata@2x.jpg',                   ...A4 },
+    { title: 'abcdef',     year: 2077, src: 'assets/hanniclaude.png',                   ...A4 },
+    { title: 'abcdef',     year: 2077, src: 'assets/marsha alert.jpg',                   ...A4 },
     { title: 'abcdef',          year: 2077, src: 'assets/taro-latte.jpg',                   w: 1920, h: 1080 },
     { title: 'abcdef',     year: 2077, src: 'assets/efootball.jpg',                   ...A4 },
     { title: 'abcdef',     year: 2077, src: 'assets/billie joe intagram.jpg',                   ...A4 },
     { title: 'abcdef',     year: 2077, src: 'assets/mockuploop.png',                   ...A4 },
+    { title: 'abcdef',     year: 2077, src: 'assets/basket case.jpg',                   ...A4 },
   ];
 
   const CAPTION_H = 44; // perkiraan tinggi teks keterangan di bawah gambar
